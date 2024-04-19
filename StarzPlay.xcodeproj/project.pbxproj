@@ -16,6 +16,21 @@
 		8542EB1D2BD22EEC009EAAAC /* StarzPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB1C2BD22EEC009EAAAC /* StarzPlayTests.swift */; };
 		8542EB272BD22EEC009EAAAC /* StarzPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB262BD22EEC009EAAAC /* StarzPlayUITests.swift */; };
 		8542EB292BD22EEC009EAAAC /* StarzPlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB282BD22EEC009EAAAC /* StarzPlayUITestsLaunchTests.swift */; };
+		8542EB3F2BD24B6C009EAAAC /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB3D2BD24B6C009EAAAC /* NavBarView.swift */; };
+		8542EB402BD24B6C009EAAAC /* NavBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB3E2BD24B6C009EAAAC /* NavBarView.xib */; };
+		8542EB432BD24BA1009EAAAC /* sf-pro-display-cufonfonts in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB412BD24BA0009EAAAC /* sf-pro-display-cufonfonts */; };
+		8542EB442BD24BA1009EAAAC /* SF Pro Text in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB422BD24BA1009EAAAC /* SF Pro Text */; };
+		8542EB462BD251FB009EAAAC /* MovieDetailScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB452BD251FB009EAAAC /* MovieDetailScreenVC.swift */; };
+		8542EB492BD2527A009EAAAC /* HeaderImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB472BD2527A009EAAAC /* HeaderImageViewCell.swift */; };
+		8542EB4A2BD2527A009EAAAC /* HeaderImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB482BD2527A009EAAAC /* HeaderImageViewCell.xib */; };
+		8542EB4D2BD2558D009EAAAC /* PlayActionBtnsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB4B2BD2558D009EAAAC /* PlayActionBtnsViewCell.swift */; };
+		8542EB4E2BD2558D009EAAAC /* PlayActionBtnsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB4C2BD2558D009EAAAC /* PlayActionBtnsViewCell.xib */; };
+		8542EB512BD2585B009EAAAC /* RatingActionsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB4F2BD2585B009EAAAC /* RatingActionsViewCell.swift */; };
+		8542EB522BD2585B009EAAAC /* RatingActionsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB502BD2585B009EAAAC /* RatingActionsViewCell.xib */; };
+		8542EB552BD2644D009EAAAC /* SeasonsListingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB532BD2644D009EAAAC /* SeasonsListingViewCell.swift */; };
+		8542EB562BD2644D009EAAAC /* SeasonsListingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB542BD2644D009EAAAC /* SeasonsListingViewCell.xib */; };
+		8542EB592BD26D90009EAAAC /* MoviesListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB572BD26D90009EAAAC /* MoviesListViewCell.swift */; };
+		8542EB5A2BD26D90009EAAAC /* MoviesListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB582BD26D90009EAAAC /* MoviesListViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,21 @@
 		8542EB222BD22EEC009EAAAC /* StarzPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarzPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8542EB262BD22EEC009EAAAC /* StarzPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarzPlayUITests.swift; sourceTree = "<group>"; };
 		8542EB282BD22EEC009EAAAC /* StarzPlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarzPlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8542EB3D2BD24B6C009EAAAC /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		8542EB3E2BD24B6C009EAAAC /* NavBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavBarView.xib; sourceTree = "<group>"; };
+		8542EB412BD24BA0009EAAAC /* sf-pro-display-cufonfonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "sf-pro-display-cufonfonts"; sourceTree = "<group>"; };
+		8542EB422BD24BA1009EAAAC /* SF Pro Text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF Pro Text"; sourceTree = "<group>"; };
+		8542EB452BD251FB009EAAAC /* MovieDetailScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreenVC.swift; sourceTree = "<group>"; };
+		8542EB472BD2527A009EAAAC /* HeaderImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderImageViewCell.swift; sourceTree = "<group>"; };
+		8542EB482BD2527A009EAAAC /* HeaderImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderImageViewCell.xib; sourceTree = "<group>"; };
+		8542EB4B2BD2558D009EAAAC /* PlayActionBtnsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayActionBtnsViewCell.swift; sourceTree = "<group>"; };
+		8542EB4C2BD2558D009EAAAC /* PlayActionBtnsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayActionBtnsViewCell.xib; sourceTree = "<group>"; };
+		8542EB4F2BD2585B009EAAAC /* RatingActionsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingActionsViewCell.swift; sourceTree = "<group>"; };
+		8542EB502BD2585B009EAAAC /* RatingActionsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingActionsViewCell.xib; sourceTree = "<group>"; };
+		8542EB532BD2644D009EAAAC /* SeasonsListingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsListingViewCell.swift; sourceTree = "<group>"; };
+		8542EB542BD2644D009EAAAC /* SeasonsListingViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonsListingViewCell.xib; sourceTree = "<group>"; };
+		8542EB572BD26D90009EAAAC /* MoviesListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewCell.swift; sourceTree = "<group>"; };
+		8542EB582BD26D90009EAAAC /* MoviesListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesListViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +129,12 @@
 		8542EB042BD22EEB009EAAAC /* StarzPlay */ = {
 			isa = PBXGroup;
 			children = (
-				8542EB052BD22EEB009EAAAC /* AppDelegate.swift */,
-				8542EB072BD22EEB009EAAAC /* SceneDelegate.swift */,
-				8542EB092BD22EEB009EAAAC /* ViewController.swift */,
-				8542EB0B2BD22EEB009EAAAC /* Main.storyboard */,
-				8542EB0E2BD22EEC009EAAAC /* Assets.xcassets */,
-				8542EB102BD22EEC009EAAAC /* LaunchScreen.storyboard */,
+				8542EB3B2BD233B9009EAAAC /* Resources */,
+				8542EB3A2BD23390009EAAAC /* Models */,
+				8542EB392BD23387009EAAAC /* ViewModel */,
+				8542EB382BD23376009EAAAC /* Controllers */,
+				8542EB362BD2333B009EAAAC /* View */,
+				8542EB352BD2332D009EAAAC /* Application */,
 				8542EB132BD22EEC009EAAAC /* Info.plist */,
 			);
 			path = StarzPlay;
@@ -125,6 +155,85 @@
 				8542EB282BD22EEC009EAAAC /* StarzPlayUITestsLaunchTests.swift */,
 			);
 			path = StarzPlayUITests;
+			sourceTree = "<group>";
+		};
+		8542EB352BD2332D009EAAAC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8542EB052BD22EEB009EAAAC /* AppDelegate.swift */,
+				8542EB072BD22EEB009EAAAC /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8542EB362BD2333B009EAAAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8542EB3C2BD24B51009EAAAC /* Cells */,
+				8542EB372BD23345009EAAAC /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8542EB372BD23345009EAAAC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8542EB0B2BD22EEB009EAAAC /* Main.storyboard */,
+				8542EB102BD22EEC009EAAAC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8542EB382BD23376009EAAAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8542EB092BD22EEB009EAAAC /* ViewController.swift */,
+				8542EB452BD251FB009EAAAC /* MovieDetailScreenVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8542EB392BD23387009EAAAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8542EB3A2BD23390009EAAAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8542EB3B2BD233B9009EAAAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8542EB422BD24BA1009EAAAC /* SF Pro Text */,
+				8542EB412BD24BA0009EAAAC /* sf-pro-display-cufonfonts */,
+				8542EB0E2BD22EEC009EAAAC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8542EB3C2BD24B51009EAAAC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8542EB3D2BD24B6C009EAAAC /* NavBarView.swift */,
+				8542EB3E2BD24B6C009EAAAC /* NavBarView.xib */,
+				8542EB472BD2527A009EAAAC /* HeaderImageViewCell.swift */,
+				8542EB482BD2527A009EAAAC /* HeaderImageViewCell.xib */,
+				8542EB4B2BD2558D009EAAAC /* PlayActionBtnsViewCell.swift */,
+				8542EB4C2BD2558D009EAAAC /* PlayActionBtnsViewCell.xib */,
+				8542EB4F2BD2585B009EAAAC /* RatingActionsViewCell.swift */,
+				8542EB502BD2585B009EAAAC /* RatingActionsViewCell.xib */,
+				8542EB532BD2644D009EAAAC /* SeasonsListingViewCell.swift */,
+				8542EB542BD2644D009EAAAC /* SeasonsListingViewCell.xib */,
+				8542EB572BD26D90009EAAAC /* MoviesListViewCell.swift */,
+				8542EB582BD26D90009EAAAC /* MoviesListViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +340,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8542EB402BD24B6C009EAAAC /* NavBarView.xib in Resources */,
 				8542EB122BD22EEC009EAAAC /* LaunchScreen.storyboard in Resources */,
 				8542EB0F2BD22EEC009EAAAC /* Assets.xcassets in Resources */,
 				8542EB0D2BD22EEB009EAAAC /* Main.storyboard in Resources */,
+				8542EB522BD2585B009EAAAC /* RatingActionsViewCell.xib in Resources */,
+				8542EB4A2BD2527A009EAAAC /* HeaderImageViewCell.xib in Resources */,
+				8542EB442BD24BA1009EAAAC /* SF Pro Text in Resources */,
+				8542EB432BD24BA1009EAAAC /* sf-pro-display-cufonfonts in Resources */,
+				8542EB562BD2644D009EAAAC /* SeasonsListingViewCell.xib in Resources */,
+				8542EB5A2BD26D90009EAAAC /* MoviesListViewCell.xib in Resources */,
+				8542EB4E2BD2558D009EAAAC /* PlayActionBtnsViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +375,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8542EB3F2BD24B6C009EAAAC /* NavBarView.swift in Sources */,
 				8542EB0A2BD22EEB009EAAAC /* ViewController.swift in Sources */,
+				8542EB552BD2644D009EAAAC /* SeasonsListingViewCell.swift in Sources */,
+				8542EB4D2BD2558D009EAAAC /* PlayActionBtnsViewCell.swift in Sources */,
 				8542EB062BD22EEB009EAAAC /* AppDelegate.swift in Sources */,
 				8542EB082BD22EEB009EAAAC /* SceneDelegate.swift in Sources */,
+				8542EB462BD251FB009EAAAC /* MovieDetailScreenVC.swift in Sources */,
+				8542EB592BD26D90009EAAAC /* MoviesListViewCell.swift in Sources */,
+				8542EB492BD2527A009EAAAC /* HeaderImageViewCell.swift in Sources */,
+				8542EB512BD2585B009EAAAC /* RatingActionsViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

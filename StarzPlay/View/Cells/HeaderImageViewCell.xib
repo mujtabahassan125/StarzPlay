@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+        <array key="SFPRODISPLAYMEDIUM.OTF">
+            <string>SFProDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="201" id="KGk-i7-Jjw" customClass="HeaderImageViewCell" customModule="StarzPlay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="201"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="201"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oZw-O5-wcU">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="201"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="Psp-9t-kfb">
+                                <rect key="frame" x="0.0" y="0.0" width="408" height="201"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="abS-fL-SPM">
+                                <rect key="frame" x="16" y="141" width="200" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sky-Bc-UQl">
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="36"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="30"/>
+                                        <color key="textColor" name="GrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="vDR-lO-vhX">
+                                        <rect key="frame" x="0.0" y="40" width="117" height="14.333333333333336"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L42-Wr-EsD">
+                                                <rect key="frame" x="0.0" y="0.0" width="27.333333333333332" height="14.333333333333334"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                                <color key="textColor" name="GrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lfz-j2-mot">
+                                                <rect key="frame" x="31.333333333333332" y="0.0" width="3.3333333333333321" height="14.333333333333334"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                                <color key="textColor" name="GrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 Seasons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oc-At-hqN">
+                                                <rect key="frame" x="38.666666666666657" y="0.0" width="59" height="14.333333333333334"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                                <color key="textColor" name="GrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh0-md-uxr">
+                                                <rect key="frame" x="101.66666666666667" y="0.0" width="3.3333333333333286" height="14.333333333333334"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                                <color key="textColor" name="GrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dH4-ff-Fgp">
+                                                <rect key="frame" x="109" y="0.0" width="8" height="14.333333333333334"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                                <color key="textColor" name="GrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="sky-Bc-UQl" firstAttribute="leading" secondItem="abS-fL-SPM" secondAttribute="leading" id="5QT-o1-1RZ"/>
+                                    <constraint firstAttribute="width" constant="200" id="84o-KR-O7k"/>
+                                    <constraint firstAttribute="height" constant="60" id="BGb-A6-weK"/>
+                                    <constraint firstItem="sky-Bc-UQl" firstAttribute="top" secondItem="abS-fL-SPM" secondAttribute="top" id="efj-lt-iFE"/>
+                                    <constraint firstItem="vDR-lO-vhX" firstAttribute="leading" secondItem="abS-fL-SPM" secondAttribute="leading" id="mun-mh-Dv6"/>
+                                    <constraint firstItem="vDR-lO-vhX" firstAttribute="top" secondItem="sky-Bc-UQl" secondAttribute="bottom" constant="4" id="pLX-s4-cbf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Psp-9t-kfb" firstAttribute="top" secondItem="oZw-O5-wcU" secondAttribute="top" id="9iX-X1-heR"/>
+                            <constraint firstAttribute="trailing" secondItem="Psp-9t-kfb" secondAttribute="trailing" id="PgA-8T-dKQ"/>
+                            <constraint firstItem="abS-fL-SPM" firstAttribute="leading" secondItem="oZw-O5-wcU" secondAttribute="leading" constant="16" id="R2c-RM-8dz"/>
+                            <constraint firstAttribute="bottom" secondItem="abS-fL-SPM" secondAttribute="bottom" id="SLq-5d-WQR"/>
+                            <constraint firstAttribute="bottom" secondItem="Psp-9t-kfb" secondAttribute="bottom" id="hV8-qI-BW4"/>
+                            <constraint firstItem="Psp-9t-kfb" firstAttribute="leading" secondItem="oZw-O5-wcU" secondAttribute="leading" id="hzt-Vm-aJf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="oZw-O5-wcU" secondAttribute="trailing" id="3Yg-Ez-0J9"/>
+                    <constraint firstItem="oZw-O5-wcU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gju-5X-bnq"/>
+                    <constraint firstAttribute="bottom" secondItem="oZw-O5-wcU" secondAttribute="bottom" id="mWy-XL-KOF"/>
+                    <constraint firstItem="oZw-O5-wcU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xZr-gZ-rDh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="25.954198473282442" y="63.732394366197184"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="wallpaper" width="242.66667175292969" height="136.66667175292969"/>
+        <namedColor name="GrayColor">
+            <color red="0.88200002908706665" green="0.88200002908706665" blue="0.88200002908706665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
