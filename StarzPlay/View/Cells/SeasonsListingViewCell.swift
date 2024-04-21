@@ -9,6 +9,7 @@ import UIKit
 
 class SeasonsListingViewCell: UITableViewCell {
 
+    @IBOutlet weak var tableView: UITableView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="px1-Ta-KvE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="px1-Ta-KvE">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,44 +13,89 @@
         <!--Movie Screen View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="MovieScreenViewController" customModule="StarzPlay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kqk-gz-j30">
-                                <rect key="frame" x="0.0" y="40" width="393" height="812"/>
-                                <color key="backgroundColor" name="BlackBgColor"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kqk-gz-j30">
+                                <rect key="frame" x="0.0" y="60" width="393" height="792"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Akt-b5-R5A"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="bWA-mB-N8r"/>
+                                </connections>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDA-e0-0ZY">
+                                <rect key="frame" x="0.0" y="40" width="393" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toe-1g-XAP">
+                                        <rect key="frame" x="20" y="28" width="24" height="24"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="NXW-nV-KnW"/>
+                                            <constraint firstAttribute="width" constant="24" id="SaG-31-4eJ"/>
+                                        </constraints>
+                                        <color key="tintColor" name="GrayColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system" title=" "/>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="K25-ze-Xe5">
+                                        <rect key="frame" x="305" y="28" width="68" height="24"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmy-h9-qw8">
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="CIs-zN-l6D"/>
+                                                    <constraint firstAttribute="height" constant="24" id="iSi-Y4-qWN"/>
+                                                </constraints>
+                                                <color key="tintColor" name="GrayColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="rectangle.inset.filled.and.person.filled" catalog="system" title=" "/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPy-6S-la8">
+                                                <rect key="frame" x="44" y="0.0" width="24" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="GrayColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" title=" "/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="K25-ze-Xe5" firstAttribute="centerY" secondItem="toe-1g-XAP" secondAttribute="centerY" id="4f6-wf-7GW"/>
+                                    <constraint firstItem="toe-1g-XAP" firstAttribute="leading" secondItem="MDA-e0-0ZY" secondAttribute="leading" constant="20" id="A5N-3E-LM3"/>
+                                    <constraint firstAttribute="height" constant="80" id="P6n-qa-RVj"/>
+                                    <constraint firstAttribute="trailing" secondItem="K25-ze-Xe5" secondAttribute="trailing" constant="20" id="ifR-WZ-1Ux"/>
+                                    <constraint firstItem="toe-1g-XAP" firstAttribute="centerY" secondItem="MDA-e0-0ZY" secondAttribute="centerY" id="s4l-zi-F5l"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" name="BlackBgColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="MDA-e0-0ZY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="9T0-zs-yNG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kqk-gz-j30" secondAttribute="trailing" id="H8c-pz-GJj"/>
-                            <constraint firstItem="kqk-gz-j30" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="Twm-wD-61D"/>
+                            <constraint firstItem="kqk-gz-j30" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="60" id="Twm-wD-61D"/>
                             <constraint firstAttribute="bottom" secondItem="kqk-gz-j30" secondAttribute="bottom" id="eqD-7m-Dgo"/>
                             <constraint firstItem="kqk-gz-j30" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fo4-Vz-oNq"/>
+                            <constraint firstAttribute="trailing" secondItem="MDA-e0-0ZY" secondAttribute="trailing" id="ftO-g9-X6l"/>
+                            <constraint firstItem="MDA-e0-0ZY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jgu-By-hTY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="W5s-Cb-U79">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" image="chevron.left" catalog="system" style="plain" id="GWv-SD-osa">
-                            <color key="tintColor" name="GrayColor"/>
-                        </barButtonItem>
-                        <rightBarButtonItems>
-                            <barButtonItem image="magnifyingglass" catalog="system" style="plain" id="3O4-mt-Pip">
-                                <color key="tintColor" name="GrayColor"/>
-                            </barButtonItem>
-                            <barButtonItem style="plain" id="xc2-Ut-9lm">
-                                <imageReference key="image" image="rectangle.inset.filled.and.person.filled" catalog="system" symbolScale="default"/>
-                                <color key="tintColor" name="GrayColor"/>
-                            </barButtonItem>
-                        </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="kqk-gz-j30" id="nbv-Oh-TeV"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="795" y="36"/>
+            <point key="canvasLocation" x="794.6564885496183" y="35.91549295774648"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3L2-o4-QOx">
@@ -75,7 +120,6 @@
         <!--Movie Screen View Controller-->
         <scene sceneID="MUN-yF-bJf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lZV-xk-DkL" sceneMemberID="firstResponder"/>
                 <viewController id="gSH-3e-nPi" customClass="MovieScreenViewController" customModule="StarzPlay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cTG-gj-OdP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -111,14 +155,16 @@
                         </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZV-xk-DkL" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1570" y="36"/>
         </scene>
     </scenes>
     <resources>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
         <image name="chevron.left" catalog="system" width="97" height="128"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <image name="rectangle.inset.filled.and.person.filled" catalog="system" width="128" height="89"/>
+        <image name="rectangle.inset.filled.and.person.filled" catalog="system" width="128" height="87"/>
         <namedColor name="BlackBgColor">
             <color red="0.13300000131130219" green="0.13300000131130219" blue="0.15299999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

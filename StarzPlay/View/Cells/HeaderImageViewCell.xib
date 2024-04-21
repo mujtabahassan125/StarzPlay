@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -34,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="408" height="201"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="abS-fL-SPM">
-                                <rect key="frame" x="16" y="141" width="200" height="60"/>
+                                <rect key="frame" x="16" y="141" width="376" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sky-Bc-UQl">
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="36"/>
@@ -81,7 +80,6 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="sky-Bc-UQl" firstAttribute="leading" secondItem="abS-fL-SPM" secondAttribute="leading" id="5QT-o1-1RZ"/>
-                                    <constraint firstAttribute="width" constant="200" id="84o-KR-O7k"/>
                                     <constraint firstAttribute="height" constant="60" id="BGb-A6-weK"/>
                                     <constraint firstItem="sky-Bc-UQl" firstAttribute="top" secondItem="abS-fL-SPM" secondAttribute="top" id="efj-lt-iFE"/>
                                     <constraint firstItem="vDR-lO-vhX" firstAttribute="leading" secondItem="abS-fL-SPM" secondAttribute="leading" id="mun-mh-Dv6"/>
@@ -89,9 +87,10 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Psp-9t-kfb" firstAttribute="top" secondItem="oZw-O5-wcU" secondAttribute="top" id="9iX-X1-heR"/>
+                            <constraint firstAttribute="trailing" secondItem="abS-fL-SPM" secondAttribute="trailing" constant="16" id="CLq-TP-gP0"/>
                             <constraint firstAttribute="trailing" secondItem="Psp-9t-kfb" secondAttribute="trailing" id="PgA-8T-dKQ"/>
                             <constraint firstItem="abS-fL-SPM" firstAttribute="leading" secondItem="oZw-O5-wcU" secondAttribute="leading" constant="16" id="R2c-RM-8dz"/>
                             <constraint firstAttribute="bottom" secondItem="abS-fL-SPM" secondAttribute="bottom" id="SLq-5d-WQR"/>
@@ -100,6 +99,7 @@
                         </constraints>
                     </view>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="oZw-O5-wcU" secondAttribute="trailing" id="3Yg-Ez-0J9"/>
                     <constraint firstItem="oZw-O5-wcU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gju-5X-bnq"/>
@@ -116,8 +116,5 @@
         <namedColor name="GrayColor">
             <color red="0.88200002908706665" green="0.88200002908706665" blue="0.88200002908706665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

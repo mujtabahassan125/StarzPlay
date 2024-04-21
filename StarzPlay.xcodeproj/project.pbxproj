@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533A88CF683E940D6D7A5194 /* Pods_StarzPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D93646953BC13F618B2E9A /* Pods_StarzPlayTests.framework */; };
 		8542EB062BD22EEB009EAAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB052BD22EEB009EAAAC /* AppDelegate.swift */; };
 		8542EB082BD22EEB009EAAAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB072BD22EEB009EAAAC /* SceneDelegate.swift */; };
 		8542EB0A2BD22EEB009EAAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB092BD22EEB009EAAAC /* ViewController.swift */; };
@@ -31,6 +32,8 @@
 		8542EB562BD2644D009EAAAC /* SeasonsListingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB542BD2644D009EAAAC /* SeasonsListingViewCell.xib */; };
 		8542EB592BD26D90009EAAAC /* MoviesListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB572BD26D90009EAAAC /* MoviesListViewCell.swift */; };
 		8542EB5A2BD26D90009EAAAC /* MoviesListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB582BD26D90009EAAAC /* MoviesListViewCell.xib */; };
+		E4E36E2FAEA0E23935875592 /* Pods_StarzPlay_StarzPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D63A7C9E14E6E0257B7478 /* Pods_StarzPlay_StarzPlayUITests.framework */; };
+		FDE3879E8942341B06B6051B /* Pods_StarzPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD049BEA568B4002CA393BDC /* Pods_StarzPlay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48D63A7C9E14E6E0257B7478 /* Pods_StarzPlay_StarzPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarzPlay_StarzPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E0854BCE350C23DA8C1E41 /* Pods-StarzPlay-StarzPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlay-StarzPlayUITests.release.xcconfig"; path = "Target Support Files/Pods-StarzPlay-StarzPlayUITests/Pods-StarzPlay-StarzPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61D93646953BC13F618B2E9A /* Pods_StarzPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarzPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8542EB022BD22EEB009EAAAC /* StarzPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarzPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8542EB052BD22EEB009EAAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8542EB072BD22EEB009EAAAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,12 @@
 		8542EB542BD2644D009EAAAC /* SeasonsListingViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonsListingViewCell.xib; sourceTree = "<group>"; };
 		8542EB572BD26D90009EAAAC /* MoviesListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewCell.swift; sourceTree = "<group>"; };
 		8542EB582BD26D90009EAAAC /* MoviesListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesListViewCell.xib; sourceTree = "<group>"; };
+		9AB4AA59207BF85AB0F95128 /* Pods-StarzPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayTests.debug.xcconfig"; path = "Target Support Files/Pods-StarzPlayTests/Pods-StarzPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A28E2397093B94C6E0654AE9 /* Pods-StarzPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlay.release.xcconfig"; path = "Target Support Files/Pods-StarzPlay/Pods-StarzPlay.release.xcconfig"; sourceTree = "<group>"; };
+		A3CC03F503AED750535EDEDF /* Pods-StarzPlay-StarzPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlay-StarzPlayUITests.debug.xcconfig"; path = "Target Support Files/Pods-StarzPlay-StarzPlayUITests/Pods-StarzPlay-StarzPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFAF930DFD5481397B3F1F18 /* Pods-StarzPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlay.debug.xcconfig"; path = "Target Support Files/Pods-StarzPlay/Pods-StarzPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		CD049BEA568B4002CA393BDC /* Pods_StarzPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarzPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47107BA5B32A9128C41C12B /* Pods-StarzPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayTests.release.xcconfig"; path = "Target Support Files/Pods-StarzPlayTests/Pods-StarzPlayTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE3879E8942341B06B6051B /* Pods_StarzPlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533A88CF683E940D6D7A5194 /* Pods_StarzPlayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +114,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E36E2FAEA0E23935875592 /* Pods_StarzPlay_StarzPlayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74B4967B782125681C869B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD049BEA568B4002CA393BDC /* Pods_StarzPlay.framework */,
+				48D63A7C9E14E6E0257B7478 /* Pods_StarzPlay_StarzPlayUITests.framework */,
+				61D93646953BC13F618B2E9A /* Pods_StarzPlayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8542EAF92BD22EEB009EAAAC = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +138,8 @@
 				8542EB1B2BD22EEC009EAAAC /* StarzPlayTests */,
 				8542EB252BD22EEC009EAAAC /* StarzPlayUITests */,
 				8542EB032BD22EEB009EAAAC /* Products */,
+				CBBBF3EA72370811B4A1BCA7 /* Pods */,
+				74B4967B782125681C869B5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +263,19 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		CBBBF3EA72370811B4A1BCA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFAF930DFD5481397B3F1F18 /* Pods-StarzPlay.debug.xcconfig */,
+				A28E2397093B94C6E0654AE9 /* Pods-StarzPlay.release.xcconfig */,
+				A3CC03F503AED750535EDEDF /* Pods-StarzPlay-StarzPlayUITests.debug.xcconfig */,
+				55E0854BCE350C23DA8C1E41 /* Pods-StarzPlay-StarzPlayUITests.release.xcconfig */,
+				9AB4AA59207BF85AB0F95128 /* Pods-StarzPlayTests.debug.xcconfig */,
+				E47107BA5B32A9128C41C12B /* Pods-StarzPlayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8542EB2C2BD22EEC009EAAAC /* Build configuration list for PBXNativeTarget "StarzPlay" */;
 			buildPhases = (
+				55A6A8600BDD144FFE301DF5 /* [CP] Check Pods Manifest.lock */,
 				8542EAFE2BD22EEB009EAAAC /* Sources */,
 				8542EAFF2BD22EEB009EAAAC /* Frameworks */,
 				8542EB002BD22EEB009EAAAC /* Resources */,
@@ -260,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8542EB2F2BD22EEC009EAAAC /* Build configuration list for PBXNativeTarget "StarzPlayTests" */;
 			buildPhases = (
+				CDDABF587BEEDD9933587E1A /* [CP] Check Pods Manifest.lock */,
 				8542EB142BD22EEC009EAAAC /* Sources */,
 				8542EB152BD22EEC009EAAAC /* Frameworks */,
 				8542EB162BD22EEC009EAAAC /* Resources */,
@@ -278,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8542EB322BD22EEC009EAAAC /* Build configuration list for PBXNativeTarget "StarzPlayUITests" */;
 			buildPhases = (
+				C52FA765A68C8277540E02EC /* [CP] Check Pods Manifest.lock */,
 				8542EB1E2BD22EEC009EAAAC /* Sources */,
 				8542EB1F2BD22EEC009EAAAC /* Frameworks */,
 				8542EB202BD22EEC009EAAAC /* Resources */,
@@ -369,6 +412,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55A6A8600BDD144FFE301DF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarzPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C52FA765A68C8277540E02EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarzPlay-StarzPlayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDABF587BEEDD9933587E1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarzPlayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8542EAFE2BD22EEB009EAAAC /* Sources */ = {
@@ -561,19 +673,20 @@
 		};
 		8542EB2D2BD22EEC009EAAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAF930DFD5481397B3F1F18 /* Pods-StarzPlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BU6K3V6JJG;
+				DEVELOPMENT_TEAM = 9X9W7CM639;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StarzPlay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -581,27 +694,31 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.StarzPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8542EB2E2BD22EEC009EAAAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28E2397093B94C6E0654AE9 /* Pods-StarzPlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BU6K3V6JJG;
+				DEVELOPMENT_TEAM = 9X9W7CM639;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StarzPlay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -609,14 +726,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.StarzPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		8542EB302BD22EEC009EAAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB4AA59207BF85AB0F95128 /* Pods-StarzPlayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -637,6 +758,7 @@
 		};
 		8542EB312BD22EEC009EAAAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47107BA5B32A9128C41C12B /* Pods-StarzPlayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -657,6 +779,7 @@
 		};
 		8542EB332BD22EEC009EAAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CC03F503AED750535EDEDF /* Pods-StarzPlay-StarzPlayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -675,6 +798,7 @@
 		};
 		8542EB342BD22EEC009EAAAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E0854BCE350C23DA8C1E41 /* Pods-StarzPlay-StarzPlayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
