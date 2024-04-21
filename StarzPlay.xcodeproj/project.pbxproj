@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		533A88CF683E940D6D7A5194 /* Pods_StarzPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D93646953BC13F618B2E9A /* Pods_StarzPlayTests.framework */; };
+		5FE401BE2BD57A3700ED98CA /* SeasonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE401BC2BD57A3700ED98CA /* SeasonsCollectionViewCell.swift */; };
+		5FE401BF2BD57A3700ED98CA /* SeasonsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE401BD2BD57A3700ED98CA /* SeasonsCollectionViewCell.xib */; };
+		5FE401C62BD58F3700ED98CA /* TopHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE401C42BD58F3700ED98CA /* TopHeaderViewCell.swift */; };
+		5FE401C72BD58F3700ED98CA /* TopHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE401C52BD58F3700ED98CA /* TopHeaderViewCell.xib */; };
 		8542EB062BD22EEB009EAAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB052BD22EEB009EAAAC /* AppDelegate.swift */; };
 		8542EB082BD22EEB009EAAAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB072BD22EEB009EAAAC /* SceneDelegate.swift */; };
 		8542EB0A2BD22EEB009EAAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB092BD22EEB009EAAAC /* ViewController.swift */; };
@@ -30,8 +34,8 @@
 		8542EB522BD2585B009EAAAC /* RatingActionsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB502BD2585B009EAAAC /* RatingActionsViewCell.xib */; };
 		8542EB552BD2644D009EAAAC /* SeasonsListingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB532BD2644D009EAAAC /* SeasonsListingViewCell.swift */; };
 		8542EB562BD2644D009EAAAC /* SeasonsListingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB542BD2644D009EAAAC /* SeasonsListingViewCell.xib */; };
-		8542EB592BD26D90009EAAAC /* MoviesListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB572BD26D90009EAAAC /* MoviesListViewCell.swift */; };
-		8542EB5A2BD26D90009EAAAC /* MoviesListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB582BD26D90009EAAAC /* MoviesListViewCell.xib */; };
+		8542EB592BD26D90009EAAAC /* EpisodeListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542EB572BD26D90009EAAAC /* EpisodeListViewCell.swift */; };
+		8542EB5A2BD26D90009EAAAC /* EpisodeListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8542EB582BD26D90009EAAAC /* EpisodeListViewCell.xib */; };
 		E4E36E2FAEA0E23935875592 /* Pods_StarzPlay_StarzPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D63A7C9E14E6E0257B7478 /* Pods_StarzPlay_StarzPlayUITests.framework */; };
 		FDE3879E8942341B06B6051B /* Pods_StarzPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD049BEA568B4002CA393BDC /* Pods_StarzPlay.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +60,10 @@
 /* Begin PBXFileReference section */
 		48D63A7C9E14E6E0257B7478 /* Pods_StarzPlay_StarzPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarzPlay_StarzPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E0854BCE350C23DA8C1E41 /* Pods-StarzPlay-StarzPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlay-StarzPlayUITests.release.xcconfig"; path = "Target Support Files/Pods-StarzPlay-StarzPlayUITests/Pods-StarzPlay-StarzPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FE401BC2BD57A3700ED98CA /* SeasonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5FE401BD2BD57A3700ED98CA /* SeasonsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonsCollectionViewCell.xib; sourceTree = "<group>"; };
+		5FE401C42BD58F3700ED98CA /* TopHeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeaderViewCell.swift; sourceTree = "<group>"; };
+		5FE401C52BD58F3700ED98CA /* TopHeaderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopHeaderViewCell.xib; sourceTree = "<group>"; };
 		61D93646953BC13F618B2E9A /* Pods_StarzPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarzPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8542EB022BD22EEB009EAAAC /* StarzPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarzPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8542EB052BD22EEB009EAAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,8 +91,8 @@
 		8542EB502BD2585B009EAAAC /* RatingActionsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingActionsViewCell.xib; sourceTree = "<group>"; };
 		8542EB532BD2644D009EAAAC /* SeasonsListingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsListingViewCell.swift; sourceTree = "<group>"; };
 		8542EB542BD2644D009EAAAC /* SeasonsListingViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonsListingViewCell.xib; sourceTree = "<group>"; };
-		8542EB572BD26D90009EAAAC /* MoviesListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewCell.swift; sourceTree = "<group>"; };
-		8542EB582BD26D90009EAAAC /* MoviesListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesListViewCell.xib; sourceTree = "<group>"; };
+		8542EB572BD26D90009EAAAC /* EpisodeListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListViewCell.swift; sourceTree = "<group>"; };
+		8542EB582BD26D90009EAAAC /* EpisodeListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeListViewCell.xib; sourceTree = "<group>"; };
 		9AB4AA59207BF85AB0F95128 /* Pods-StarzPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayTests.debug.xcconfig"; path = "Target Support Files/Pods-StarzPlayTests/Pods-StarzPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A28E2397093B94C6E0654AE9 /* Pods-StarzPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlay.release.xcconfig"; path = "Target Support Files/Pods-StarzPlay/Pods-StarzPlay.release.xcconfig"; sourceTree = "<group>"; };
 		A3CC03F503AED750535EDEDF /* Pods-StarzPlay-StarzPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlay-StarzPlayUITests.debug.xcconfig"; path = "Target Support Files/Pods-StarzPlay-StarzPlayUITests/Pods-StarzPlay-StarzPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -257,8 +265,12 @@
 				8542EB502BD2585B009EAAAC /* RatingActionsViewCell.xib */,
 				8542EB532BD2644D009EAAAC /* SeasonsListingViewCell.swift */,
 				8542EB542BD2644D009EAAAC /* SeasonsListingViewCell.xib */,
-				8542EB572BD26D90009EAAAC /* MoviesListViewCell.swift */,
-				8542EB582BD26D90009EAAAC /* MoviesListViewCell.xib */,
+				8542EB572BD26D90009EAAAC /* EpisodeListViewCell.swift */,
+				8542EB582BD26D90009EAAAC /* EpisodeListViewCell.xib */,
+				5FE401BC2BD57A3700ED98CA /* SeasonsCollectionViewCell.swift */,
+				5FE401BD2BD57A3700ED98CA /* SeasonsCollectionViewCell.xib */,
+				5FE401C42BD58F3700ED98CA /* TopHeaderViewCell.swift */,
+				5FE401C52BD58F3700ED98CA /* TopHeaderViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -386,14 +398,16 @@
 				8542EB402BD24B6C009EAAAC /* NavBarView.xib in Resources */,
 				8542EB122BD22EEC009EAAAC /* LaunchScreen.storyboard in Resources */,
 				8542EB0F2BD22EEC009EAAAC /* Assets.xcassets in Resources */,
+				5FE401BF2BD57A3700ED98CA /* SeasonsCollectionViewCell.xib in Resources */,
 				8542EB0D2BD22EEB009EAAAC /* Main.storyboard in Resources */,
 				8542EB522BD2585B009EAAAC /* RatingActionsViewCell.xib in Resources */,
 				8542EB4A2BD2527A009EAAAC /* HeaderImageViewCell.xib in Resources */,
 				8542EB442BD24BA1009EAAAC /* SF Pro Text in Resources */,
 				8542EB432BD24BA1009EAAAC /* sf-pro-display-cufonfonts in Resources */,
 				8542EB562BD2644D009EAAAC /* SeasonsListingViewCell.xib in Resources */,
-				8542EB5A2BD26D90009EAAAC /* MoviesListViewCell.xib in Resources */,
+				8542EB5A2BD26D90009EAAAC /* EpisodeListViewCell.xib in Resources */,
 				8542EB4E2BD2558D009EAAAC /* PlayActionBtnsViewCell.xib in Resources */,
+				5FE401C72BD58F3700ED98CA /* TopHeaderViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,8 +507,10 @@
 				8542EB4D2BD2558D009EAAAC /* PlayActionBtnsViewCell.swift in Sources */,
 				8542EB062BD22EEB009EAAAC /* AppDelegate.swift in Sources */,
 				8542EB082BD22EEB009EAAAC /* SceneDelegate.swift in Sources */,
+				5FE401BE2BD57A3700ED98CA /* SeasonsCollectionViewCell.swift in Sources */,
 				8542EB462BD251FB009EAAAC /* MovieDetailScreenVC.swift in Sources */,
-				8542EB592BD26D90009EAAAC /* MoviesListViewCell.swift in Sources */,
+				8542EB592BD26D90009EAAAC /* EpisodeListViewCell.swift in Sources */,
+				5FE401C62BD58F3700ED98CA /* TopHeaderViewCell.swift in Sources */,
 				8542EB492BD2527A009EAAAC /* HeaderImageViewCell.swift in Sources */,
 				8542EB512BD2585B009EAAAC /* RatingActionsViewCell.swift in Sources */,
 			);

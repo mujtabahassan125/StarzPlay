@@ -22,7 +22,7 @@ class MovieScreenViewController: UIViewController {
         tableView.register(UINib(nibName: String(describing: PlayActionBtnsViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: PlayActionBtnsViewCell.self))
         tableView.register(UINib(nibName: String(describing: RatingActionsViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: RatingActionsViewCell.self))
         tableView.register(UINib(nibName: String(describing: SeasonsListingViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: SeasonsListingViewCell.self))
-        tableView.register(UINib(nibName: String(describing: MoviesListViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: MoviesListViewCell.self))
+        tableView.register(UINib(nibName: String(describing: EpisodeListViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: EpisodeListViewCell.self))
     }
     @IBAction func screenCastBtnAction(_ sender: Any) {
     }
@@ -39,7 +39,7 @@ extension MovieScreenViewController: UITableViewDelegate, UITableViewDataSource 
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return 5
+       return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -54,12 +54,9 @@ extension MovieScreenViewController: UITableViewDelegate, UITableViewDataSource 
         case 2:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: RatingActionsViewCell.self)) as? RatingActionsViewCell else { return UITableViewCell() }
             return cell
-        case 3:
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: SeasonsListingViewCell.self)) as? SeasonsListingViewCell else { return UITableViewCell() }
-            return cell
-        case 4:
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MoviesListViewCell.self)) as? MoviesListViewCell else { return UITableViewCell() }
-            return cell
+//        case 3:
+//            guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: SeasonsListingViewCell.self)) as? SeasonsListingViewCell else { return UITableViewCell() }
+//            return cell
         default:
             return UITableViewCell()
         }
